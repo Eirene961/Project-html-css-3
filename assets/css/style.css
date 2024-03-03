@@ -49,6 +49,7 @@ a {
 }
 
 .desc {
+  margin-top: 18px;
   max-width: 468px;
   color: #575f66;
   font-size: 1.8rem;
@@ -274,10 +275,6 @@ a {
   background: #f6fbff;
 }
 
-.work .desc {
-  margin-top: 18px;
-}
-
 .work .work-list {
   margin-top: 86px;
   display: flex;
@@ -320,4 +317,45 @@ a {
 .work .work-item .learn {
   display: inline-block;
   margin-top: 18px;
+}
+
+/* =============== about =============== */
+.about .body {
+  margin-top: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about .media {
+  width: 49%;
+  height: 491px;
+  position: relative;
+}
+
+.about .media img {
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.about .media img:first-child {
+  width: 512px;
+  height: 370px;
+  box-shadow: 0px 14px 28px 0px #00000012;
+}
+
+.about .media img:last-child {
+  width: 332px;
+  height: 370px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.about .content {
+  width: 41%;
+}
+
+.about .content .btn {
+  margin-top: 55px;
 }
