@@ -48,6 +48,14 @@ a {
   letter-spacing: -0.02em;
 }
 
+.desc {
+  max-width: 468px;
+  color: #575f66;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.67;
+}
+
 /* =============== header =============== */
 .header {
   background: #10375c;
@@ -140,11 +148,7 @@ a {
 
 .hero .desc {
   margin-top: 22px;
-  max-width: 468px;
   color: #c9d2da;
-  font-size: 1.8rem;
-  font-weight: 300;
-  line-height: 1.67;
 }
 
 .hero .contact {
@@ -193,11 +197,6 @@ a {
 
 .services .desc {
   margin: 18px auto 0;
-  max-width: 468px;
-  color: #575f66;
-  font-size: 1.8rem;
-  font-weight: 300;
-  line-height: 1.67;
   text-align: center;
 }
 
@@ -267,4 +266,58 @@ a {
 
 .services .btn {
   margin-top: 55px;
+}
+
+/* =============== work =============== */
+.work {
+  padding: 100px 0;
+  background: #f6fbff;
+}
+
+.work .desc {
+  margin-top: 18px;
+}
+
+.work .work-list {
+  margin-top: 86px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.work .work-item {
+  border: 16px solid #eaf6ff;
+  padding: 43px 42px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.work .work-item:hover {
+  border: 16px solid #2e80ce;
+  margin: -16px 0 16px;
+}
+
+.work .work-item .title {
+  margin-top: 18px;
+  color: #10375c;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.38;
+}
+
+.work .work-item .desc,
+.work .work-item .learn {
+  color: #575f66;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75;
+}
+
+.work .work-item .desc {
+  margin-top: 28px;
+}
+
+.work .work-item .learn {
+  display: inline-block;
+  margin-top: 18px;
 }
