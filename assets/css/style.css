@@ -444,3 +444,41 @@ a {
   justify-content: center;
   gap: 18px;
 }
+
+.mobile {
+  margin-top: 265px;
+}
+
+.mobile .body {
+  position: relative;
+  padding: 76px 70px 75px;
+  background: #2e80ce;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mobile .phone {
+  position: absolute;
+  bottom: 0;
+  left: 70px;
+  cursor: pointer;
+}
+
+.mobile .heading-lv2 {
+  max-width: 489px;
+  color: #fff;
+}
+
+.mobile .desc {
+  max-width: 100%;
+  color: #fff;
+  max-width: 587px;
+}
+
+.mobile .store {
+  margin-top: 38px;
+}
+
+.mobile .ch-play {
+  margin-right: 28px;
+}
