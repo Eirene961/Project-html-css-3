@@ -573,3 +573,37 @@ a {
   font-weight: 500;
   line-height: 1.26;
 }
+
+/* =============== appointment =============== */
+.appointment {
+  margin-top: 170px;
+}
+
+.appointment .body {
+  padding: 100px 0;
+  background: #f6fbff;
+}
+
+.appointment .heading-lv2 {
+  text-align: center;
+}
+
+.appointment .heading-lv2::after {
+  content: "";
+  display: block;
+  width: 136px;
+  height: 2px;
+  background: #2e80ce;
+  margin: 18px auto 0;
+}
+
+.appointment .desc {
+  max-width: 617px;
+  text-align: center;
+  margin: 18px auto 0;
+}
+
+.appointment .btn {
+  display: block;
+  margin: 38px auto 0;
+}
